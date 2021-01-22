@@ -1,0 +1,217 @@
+*,body{
+    /* background-color: gray; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-dark{
+    background-color: #111011!important;
+}
+
+.navbar-brand{
+    color: #91dacb !important;
+    font-size: x-large !important;
+}
+.navbar{
+    z-index: 1000;
+}
+
+.btn-sing-up,.btn-sing-in{
+    color: #fff;
+    background-color: #15d4cb;
+    border-color: #15d4cb;
+    padding: 8px 15px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+}
+
+.btn-sing-up:hover{
+    background-color: #ffb62f;
+}
+
+
+@media only screen and (max-width:580px){
+    .btn-sing-up{
+        margin-top: 1rem;
+    }
+}
+
+.btn-sing-up a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+/* navbar ---------------- */
+
+
+.bg-video{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bg-video .video{
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+
+.video-container{
+    position: absolute;
+    color: white;
+}
+
+.video-container h1{
+    font-size: 3rem;
+    color: aqua;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.video-container h1 span{
+    color: #ffb62f;
+}
+.video-container h6{
+    font-size: 1.1rem;
+}
+
+
+/* video ---------------------------- */
+
+
+.about-section{
+    background:linear-gradient(to right, black, rgb(17,16,17));
+}
+
+.about-contain span h6{
+    color: #04e7ff;
+}
+
+.about-contain h2{
+    color: aliceblue;
+}
+
+.about-contain h6 span{
+    color: #6d8a6d;
+}
+
+.btn-sing-in{
+    background-color: #ffb62f !important;
+}
+
+.btn-sing-in:hover{
+    background-color: aqua !important;
+}
+
+
+
+/*----------------------------------- about ----------------------------- */
+
+.about-contain span h3{
+    color: #00ba7c;
+}
+
+.about-contain h1{
+    font-size: 2.8rem;
+    color: black;
+}
+
+.Services-section button,.card-card button{
+    background-color: #100f10 !important;
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.Services-section button:hover,.card-card button:hover{
+    background-color: #00ac73 !important;
+}
+
+
+/*------------------------------- services --------------------------------- */
+
+
+
+.card-container{
+    background:linear-gradient(to right, black, rgb(17,16,17));
+}
+
+.card-card{
+    width: 15rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.card-body{
+
+    border-top: 2px solid #00bf7f;
+    border-radius: 75px 0;
+
+}
+.card-card .card-first-line{
+    color: #00c07f;
+}
+
+@media only screen and (max-width:991px){
+    .card-card{
+        width: 12rem !important;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .card-card{
+        width: 20rem !important;
+        margin-bottom: 3rem;
+        }
+}
+
+
+@media only screen and (max-width:370px){
+    .card-card{
+        width: 18rem !important;
+        }
+}
+
+@media only screen and (max-width:340px){
+    .card-card{
+        width: 16rem !important;
+        }
+}
+
+
+/*------------------------------------------------- about ------------------------- */
+
+.contact-section{
+    background-color: #060506;
+}
+
+.form-control{
+    width: 100%;
+    background-color: #100f10;
+    color: white;
+}
+
+.contact-section .form-label{
+    color: white;
+}
+.contact-section h1{
+    text-align: center;
+    color: #0fd1d3;
+}
